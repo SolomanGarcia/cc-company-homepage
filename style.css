@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Mega", sans-serif;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 10%;
+  
+}
+
+li a {
+  color: black;
+}
